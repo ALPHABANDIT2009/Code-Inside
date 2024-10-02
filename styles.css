@@ -82,3 +82,34 @@ html, body {
     left: 12vw;
 
 }
+
+.page_teacher {
+
+    position: absolute;
+
+    left: 20vw;
+
+}
+
+/* Rectangle */
+.rectangle_side {
+
+    background-image: url("Assets/Pages/Windows/Rectangle Side.png");
+
+    height: 320px;
+    width:674px;
+
+}
+
+.window_title {
+
+    position: absolute;
+
+    left: 50%;
+    top:20%;
+
+    transform: translateX(-50%);
+
+    height:calc(16.0 * 2)vw;
+    width:calc(33.7 * 2)vw; 
+}

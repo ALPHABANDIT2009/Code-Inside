@@ -1,0 +1,191 @@
+/* Styles for all pages */
+
+/* Custom font */
+@font-face {
+    font-family: 'Craftron';
+    src: URL('Assets/Fonts/Craftron.ttf') format('truetype');
+}
+
+html, body {
+    /* Default Cursor */
+    cursor: url("Assets/Cursors/Cursor.ico"), default;
+    /* Font */
+    font-family: Craftron;
+    color:white;
+    font-size: 1.5vw;
+}
+
+/* Top Bar */
+.top_bar {
+
+    position: fixed;
+
+    top: 0%;
+    left: 0%;
+
+    width: 10000px;
+    height: 8%;
+
+    image-rendering: pixelated;
+    z-index: 10;
+
+
+    /* Background Properties */
+    background-image: url("Assets/Pages/Topbar.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.top_bar_page {
+
+    position: absolute;
+
+    cursor: url("Assets/Cursors/Pointer.ico"), default;
+    user-select: none; 
+
+    background-color: transparent;
+
+    height:100%;
+    width: 8vw;
+
+    font-size: 1.5vw;
+
+    transition: 0.3s;
+
+}
+.top_bar_page:hover{
+
+    font-size: 1.8vw;
+
+    transition: 0.3s;
+}
+.top_bar_text {
+    
+    position: absolute;
+    
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.page_home {
+
+    position: absolute;
+
+    left: 4vw;
+
+}
+
+.page_students {
+
+    position: absolute;
+
+    left: 12vw;
+
+}
+
+.page_teacher {
+
+    position: absolute;
+
+    left: 20vw;
+
+}
+
+/* Rectangle  Side */
+.rectangle_side {
+
+    background-image: url("Assets/Pages/Home/Rectangle Side.png");
+
+
+    height: 16.0vw;
+    width: 33.7vw; 
+
+    background-size: contain;
+    image-rendering: pixelated;
+    z-index: 10;
+}
+.rectangle_side_tab {
+
+    position: absolute;
+
+    top: 0%;
+    left:0%;
+
+    width:100%;
+    height: 2vw;
+
+    cursor: url("Assets/Cursors/Pointer.ico"), default;
+
+    font-size: 1.2vw;
+    line-height: 2.3vw;
+
+    user-select: none;
+}
+
+.rectangle_side_contents {
+
+    position: absolute;
+
+    top: 2vw;
+    left: 0%;
+
+    width:100%;
+    height: 14vw;
+
+} 
+
+/* Small Square */
+.small_square {
+    
+    background-image: url("Assets/Pages/Home/Square\ Small.png");
+
+
+    height: 8.4vw;
+    width: 8vw; 
+
+    background-size: contain;
+    image-rendering: pixelated;
+
+    z-index: 10;
+}
+
+.small_square_tab {
+
+    position: absolute;
+
+    top: 0%;
+    left:0%;
+
+    width:100%;
+    height: 2vw;
+
+    cursor: url("Assets/Cursors/Pointer.ico"), default;
+
+    font-size: 1.2vw;
+    line-height: 2.3vw;
+
+    user-select: none;
+    
+}
+.small_square_contents {
+
+    position: absolute;
+
+    top: 2vw;
+    left: 0%;
+
+    width:100%;
+    height: 6.4vw;
+
+}
+
+
+/* Cursors */
+.Dragged_State {
+    cursor: url("Assets/Cursors/Grab.ico"), default;
+    z-index: 10000;
+  }
+
+

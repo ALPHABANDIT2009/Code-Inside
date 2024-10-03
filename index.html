@@ -3,10 +3,12 @@
 
 <head>
     <title>Inside View of CODE9</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="primary_styles.css">
+    <link rel="stylesheet" href="content_styles.css">
 </head>
 
 <body style="background-color: rgb(18,16,31);">
+<script src="index_scripts.js"></script>
 
     <div class="top_bar">
         <div class="top_bar_page page_home"><div class="top_bar_text"><u>Home</u></div></div>
@@ -14,7 +16,25 @@
         <div class="top_bar_page page_teacher"><div class="top_bar_text">Teacher</div></div>
     </div>
    
-    <div class="rectangle_side window_title">Test</div>
+    <!-- Title Window -->
+    <div class="rectangle_side" id="window_IDTITLE" style="position: absolute;left: 50%;top:20%;transform: translateX(-50%);">
+        <div class="rectangle_side_tab" id="window_tab_IDTITLE">&nbsp;Website Title</div>
+        <div class="rectangle_side_contents">
+            <div class="content_title"><u>An Inside View of CODE 9</u></div>
+            <div class="content_subtitle">And the changes we want</div>
+        </div>
+    </div>
+
+        <!-- Subtitle Window-->
+    <div class="small_square" id="window_IDSUBTITLE" style="position: absolute;left: 68%;top:43%;transform: translateX(-50%);">
+        <div class="small_square_tab" id="window_tab_IDSUBTITLE">&nbsp;Subtitle</div>
+        <div class="small_square_contents">
+        <p class="content_small_square_p">Pro Website Entry</p>
+        
+        </div>
+    </div>
+
+
  
 </body>
 

@@ -1,0 +1,33 @@
+/* Very specialized and specific styles, misc styles */
+.content_title {
+    position: absolute;
+
+    top: 35%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    white-space: nowrap;
+
+    font-size: 2.2vw;
+}
+
+
+.content_subtitle {
+    position: absolute;
+
+    top: 55%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    white-space: nowrap;
+
+    font-size: 1.8vw;
+}
+
+.content_small_square_p {
+    position: absolute;
+    top:-18%;
+    left:8%;
+}

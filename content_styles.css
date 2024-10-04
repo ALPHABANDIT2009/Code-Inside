@@ -40,3 +40,21 @@
 
     font-size: 2.5vw;
 }
+
+.content_square_img {
+
+    width: 75%;
+    height: 75%;
+
+    border-style: solid;
+    border-color: white;
+    border-width: 0.25vw;
+
+    position: absolute;
+
+    transform: translate(-50%, -50%);
+
+    top:50%;
+    left: 50%;
+
+}

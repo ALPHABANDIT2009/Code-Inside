@@ -31,3 +31,12 @@
     top:-18%;
     left:8%;
 }
+
+.tall_wide_title {
+
+    position: absolute;
+    top: 2%;
+    left: 2%;
+
+    font-size: 2.5vw;
+}

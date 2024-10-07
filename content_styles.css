@@ -72,7 +72,45 @@
 
     left: 50%;
 
-    font-size: 1vw;
+    font-size: 1.5vw;
  
 
+}
+
+.rect_side_title {
+
+    position: absolute;
+    top: 5%;
+    left: 3%;
+
+    font-size: 2vw;
+}
+
+.rect_side_text {
+
+    position: absolute;
+    top: 22%;
+    left: 3%;
+
+    font-size: 2vw;
+
+    background-color: red;
+
+    width: 60%;
+    height: 70%;
+}
+
+
+.rect_side_img {
+
+    position: absolute;
+    top: 0.2%;
+    right: 1.2%;
+
+    font-size: 2vw;
+
+    background-color: green;
+
+    width: 25%;
+    height: 97.5%;
 }

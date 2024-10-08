@@ -57,6 +57,7 @@
     top:50%;
     left: 50%;
 
+    user-select: none;
 }
 
 
@@ -92,12 +93,13 @@
     top: 22%;
     left: 3%;
 
-    font-size: 2vw;
+    font-size: 1.2vw;
 
-    background-color: red;
+    background-color: transparent;
 
     width: 60%;
     height: 70%;
+
 }
 
 
@@ -109,8 +111,11 @@
 
     font-size: 2vw;
 
-    background-color: green;
+    background-color: transparent;
 
-    width: 25%;
+    width: 35%;
     height: 97.5%;
+    image-rendering: pixelated;
+    transform: scaleX(-1);
+
 }

@@ -118,4 +118,13 @@
     image-rendering: pixelated;
     transform: scaleX(-1);
 
+
+
 }
+
+.clickable_chip {
+    cursor: url("Assets/Cursors/Pointer.ico"), default;
+
+
+}
+

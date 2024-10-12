@@ -125,7 +125,14 @@
 .clickable_chip {
     cursor: url("Assets/Cursors/Pointer.ico"), default;
 
+    transition: 0.3s;
 
+    user-select: none;
+}
+.clickable_chip:hover {
+    height:84%;
+    width:84%;
+    transition: 0.3s;
 }
 
 .content_rect_side_img{
@@ -145,4 +152,36 @@
     left: 50%;
 
     user-select: none;
+}
+
+.content_rect_side_img_one{
+
+    width: 25%;
+    height: 70%;
+
+    border-style: solid;
+    border-color: white;
+    border-width: 0.25vw;
+
+    position: absolute;
+
+    transform: translate(-50%, -50%);
+
+    top:50%;
+  
+
+    user-select: none;
+}
+
+.mao_Zedong_daddy {
+
+
+
+    position: absolute;
+
+    height: 34vw;
+    width: 34vw; 
+
+    position: absolute;left: 81.5%;top:60%;transform: translateX(-50%);
+
 }

@@ -8,7 +8,17 @@
 </head>
 
 <body style="background-color: rgb(18,16,31); height: 170vh;">
-<script src="index_scripts.js"></script>
+<script>
+    
+ window.addEventListener('load', function () {
+
+// Draggable elements
+function dragElement7(e){var t=0,n=0,o=0,d=0;function l(l){(l=l||window.event).preventDefault(),t=o-l.clientX,n=d-l.clientY,o=l.clientX,d=l.clientY,e.style.top=e.offsetTop-n+"px",e.style.left=e.offsetLeft-t+"px"}function m(){document.onmouseup=null,document.onmousemove=null,document.getElementById("window_IDCCPP").classList.remove("Dragged_State"),document.getElementById("window_tab_IDCCPP").classList.remove("Dragged_State")}document.getElementById("window_tab_IDCCPP").onmousedown=function(e){(e=e||window.event).preventDefault(),o=e.clientX,d=e.clientY,document.onmouseup=m,document.getElementById("window_IDCCPP").classList.add("Dragged_State"),document.getElementById("window_tab_IDCCPP").classList.add("Dragged_State"),document.onmousemove=l}}dragElement7(document.getElementById("window_IDCCPP"));
+function dragElement4(e){var t=0,n=0,o=0,d=0;function l(l){(l=l||window.event).preventDefault(),t=o-l.clientX,n=d-l.clientY,o=l.clientX,d=l.clientY,e.style.top=e.offsetTop-n+"px",e.style.left=e.offsetLeft-t+"px"}function m(){document.onmouseup=null,document.onmousemove=null,document.getElementById("window_IDROOMIMG").classList.remove("Dragged_State"),document.getElementById("window_tab_IDROOMIMG").classList.remove("Dragged_State")}document.getElementById("window_tab_IDROOMIMG").onmousedown=function(e){(e=e||window.event).preventDefault(),o=e.clientX,d=e.clientY,document.onmouseup=m,document.getElementById("window_IDROOMIMG").classList.add("Dragged_State"),document.getElementById("window_tab_IDROOMIMG").classList.add("Dragged_State"),document.onmousemove=l}}dragElement4(document.getElementById("window_IDROOMIMG"));
+    
+})
+
+</script>
 
 
     <div class="top_bar">
@@ -17,7 +27,55 @@
 <a href="pros.html"><div class="top_bar_page page_pros"><div class="top_bar_text"><u>Pros</u></div></div></a>
     </div>
    
+
+<!-- Decor code -->
+<div class="decor_code" id="decor1" style="top: 110%;left:55%;">
+  &#60;head&gt;<br>
+  &#60;title&gt;Inside View of CODE9&#60;/title&gt;<br>
+  &#60;link rel="stylesheet" href="primary_styles.css"&gt;<br>
+  &#60;link rel="stylesheet" href="content_styles.css"&gt;<br>
+  &#60;/head&gt;<br>
+  &#60;div class="rectangle_side" id="window_IDTITLE" style="position: absolute;left: 50%;top:20%;transform: translateX(-50%);"><br>
+  &#60;div class="rectangle_side_tab" id="window_tab_IDTITLE">&nbsp;Website Title&#60;/div><br>
+  &#60;div class="rectangle_side_contents"><br>
+  &#60;div class="content_title">&#60;u>An Inside View of CODE 9&#60;/u>&#60;/div><br>
+  &#60;div class="content_subtitle">And the changes we want&#60;/div><br>
+  &#60;/div><br>
+  &#60;/div><br>
+</div>
+
+
+   <!-- OVERVIEW Window-->
+   <div class="rectangle_tall_wide" id="window_IDCCPP" style="position: absolute;left:77%;top:15%;transform: translateX(-50%);">
+    <div class="rectangle_tall_wide_tab" id="window_tab_IDCCPP">&nbsp;Overview Window</div>
+    <div class="rectangle_tall_wide_contents">
+    
+        <div class="tall_wide_title"><u>Logan Shipley's View</u></div>
+        <p class="content_rectangle_tall_wide_text">
+
+I interviewed Logan Shipley, a former Computer Science Teacher and this is what he had to say: "CODE 9 is an 'Elite' program only found in this school, and is a place to learn multiple different languages."
+
+<br>
+
+        </p>                
+
+
+</div>
+</div>
   
+        <!-- Image Window-->
+        <div class="square" id="window_IDROOMIMG" style="position: absolute;left:84%;top:50%;transform: translateX(-50%);">
+          <div class="square_tab" id="window_tab_IDROOMIMG">&nbsp;Logan Shipley</div>
+          <div class="square_contents">
+          
+             
+          <img class="content_square_img" src="Assets/Pages/Pros Images/logan.jpg">    
+
+
+      </div>
+  </div>
+
+
 
  
     <br>
@@ -58,8 +116,13 @@
           </ul>
         </li>
       </ul>
-   
+      
 
+      <marquee style="position: absolute;top:172.5%;z-index: 444000;">"This page was required by Ms. Taylor in order to let me post this site as a topic." - Will Camp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Are there any teachers seeing this?" - Will Camp</marquee>
+      <div class="bottom_bar">
+        
+            </div>
+           
  
 </body>
 

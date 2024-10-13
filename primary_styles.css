@@ -13,14 +13,14 @@ html, body {
     font-family: Craftron;
     color:white;
     font-size: 1.5vw;
-}
-html, body {
     max-width: 50%;
     overflow-x: hidden;
 }
+
 a {
     text-decoration: none;
     color: white;
+
 }
 
 /* Top Bar */
@@ -326,4 +326,25 @@ a {
 
     user-select: none;
     white-space: nowrap;
+}
+
+/* b Bar */
+.bottom_bar {
+
+    position: absolute;
+    top:  170vh;
+    
+    left: 0%;
+
+    width: 10000px;
+    height: 8%;
+
+    image-rendering: pixelated;
+    z-index: 10000;
+
+
+    /* Background Properties */
+    background-image: url("Assets/Pages/Bottombar.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }

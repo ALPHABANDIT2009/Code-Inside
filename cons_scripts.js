@@ -1,3 +1,4 @@
+
 // Wait for site to load
 window.addEventListener('load', function () {
 
@@ -11,10 +12,19 @@ window.addEventListener('load', function () {
     function dragElement7(e){var t=0,n=0,o=0,d=0;function l(l){(l=l||window.event).preventDefault(),t=o-l.clientX,n=d-l.clientY,o=l.clientX,d=l.clientY,e.style.top=e.offsetTop-n+"px",e.style.left=e.offsetLeft-t+"px"}function m(){document.onmouseup=null,document.onmousemove=null,document.getElementById("window_IDCCPP").classList.remove("Dragged_State"),document.getElementById("window_tab_IDCCPP").classList.remove("Dragged_State")}document.getElementById("window_tab_IDCCPP").onmousedown=function(e){(e=e||window.event).preventDefault(),o=e.clientX,d=e.clientY,document.onmouseup=m,document.getElementById("window_IDCCPP").classList.add("Dragged_State"),document.getElementById("window_tab_IDCCPP").classList.add("Dragged_State"),document.onmousemove=l}}dragElement7(document.getElementById("window_IDCCPP"));
            
 })
-
+var chip_count = 1;
 function chip_click(){
 
     var crunch = new Audio('Assets/Pages/Cons Images/crunch.mp3');
     crunch.play();
+    document.getElementById('window_tab_IDCHIP').innerHTML = "&nbsp;Mason's Chip | " + chip_count + " Chips"
+    chip_count++;
+    
+}
+
+function daddy_click(){
+
+    var daddy = new Audio('Assets/Pages/Cons Images/dad.mp3');
+    daddy.play();
     
 }

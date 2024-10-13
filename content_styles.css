@@ -174,7 +174,7 @@
 }
 
 .mao_Zedong_daddy {
-
+    cursor: url("Assets/Cursors/Pointer.ico"), default;
 
 
     position: absolute;
@@ -185,3 +185,93 @@
     position: absolute;left: 81.5%;top:60%;transform: translateX(-50%);
 
 }
+
+.tnt {
+    border-radius: 10px;
+    position: absolute;top:163%;right:1%;height:8vh;cursor: url('Assets/Cursors/Pointer.ico'), default;transition: 0.5s;
+}
+
+.tnt:hover {
+
+    transition: 0.5s;
+    background-color: rgb(77,75,92);
+    border-radius: 10px;
+
+}
+
+.out {
+  
+    cursor: url("Assets/Cursors/Pointer.ico"), default;
+    user-select: none; 
+
+    font-size: 1vw;
+
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+  
+    transition: 0.3s;
+
+   
+}
+
+.out:hover {
+    transition: 0.3s;
+    font-size: 1.2vw;
+  
+}
+
+.options {
+
+    position: absolute;
+    left: 50%;top:40%;
+    transform: translate(-50%, -50%)
+
+
+}
+
+.option_text {
+
+    user-select: none;
+    cursor: url("Assets/Cursors/Pointer.ico"), default;
+
+    transition: 0.3s;
+
+}
+
+.option_text:hover {
+transition: 0.3s;
+
+font-size: 2vw;
+}
+
+.bb{
+
+
+ background-color: black; 
+
+ transition: 0.5s;
+
+}
+
+.sigma {
+
+  
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+    animation: marquee 10s infinite linear;
+}
+@keyframes marquee {
+    0% {
+      background-position: 0;
+    }
+  
+    100% {
+      background-position: -1000px;
+      
+    }
+  }
